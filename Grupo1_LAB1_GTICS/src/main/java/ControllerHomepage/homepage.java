@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class homepage {
     @GetMapping("/homepage")
     public String homePage(){
-        return "homepage";
+        return "Bitcoin";
     }
 }
